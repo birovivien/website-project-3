@@ -321,6 +321,11 @@ MEDIA QUERIES
     line-height: 5rem;
   }
 
+   .title-heading {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  
   .hide-on-big {
     display: block;
   }
