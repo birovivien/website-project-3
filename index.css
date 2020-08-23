@@ -269,6 +269,10 @@ p {
 MEDIA QUERIES
 *****************/
 @media (max-width: 1028px) {
+  .huge-heading {
+    margin: 4rem 0 3rem 0;
+  }
+
   #title .container-fluid {
     text-align: center;
   }
@@ -300,18 +304,10 @@ MEDIA QUERIES
     position: relative;
   }
 
-  .skill-row {
-    width: 100%;
-    margin: 5% auto 20%;
-    text-align: center;
-    line-height: 2;
-  }
 }
 
 @media (max-width: 1200px) {
-  .huge-heading {
-    margin: 4rem 0 3rem 0;
-  }
+
 
   .title-cursive {
     color: #fff;
@@ -321,11 +317,11 @@ MEDIA QUERIES
     line-height: 5rem;
   }
 
-   .title-heading {
-    font-size: 2rem;
+  .title-heading {
+    font-size: 2.5rem;
     margin-bottom: 3rem;
   }
-  
+
   .hide-on-big {
     display: block;
   }
@@ -341,7 +337,8 @@ MEDIA QUERIES
   .skill-row {
     width: 100%;
     text-align: center;
-    line-height: 2;
+    line-height: 1.4;
+    font-size: .5rem;
   }
 
   .code-img {
