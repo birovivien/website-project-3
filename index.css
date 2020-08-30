@@ -154,7 +154,7 @@ p {
 
 /* Title Image */
 .title-image {
-  width: 50%;
+  width: 70%;
   position: absolute;
   right: 35%;
   top: 20%;
@@ -239,6 +239,10 @@ p {
 
 .card-align {
   justify-content: center;
+}
+
+.projects-link:hover {
+  text-decoration: none;
 }
 
 
